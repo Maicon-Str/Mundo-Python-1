@@ -1,0 +1,6 @@
+Ordem em que quais operadores sersão resolvidos primeiro!
+
+1= () Parenteses
+2= ** Potencias
+3= *[Multiplicação], / [Divisão], //[Divisão inteira], % [Resto da divisão]
+4= +[Adição], -[Subtração]

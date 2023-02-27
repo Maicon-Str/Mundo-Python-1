@@ -1,0 +1,24 @@
+nome= str(input('Olá, Qual é o seu nome?')).title()
+if nome == 'Gabriel':
+    print(f'Nossa, {nome}, então vc é???.')
+else:
+    print(f'Bom, seja bem vindo(a), {nome}.')
+print('Tendo um bom dia?')
+
+print('Vamos avaliar sua média neste brimestre')
+n1= float(input('Digite sua nota em Português:'))
+n2= float(input('Digite sua nota em Matemática:'))
+n3= float(input('Digite sua nota em História:'))
+n4= float(input('Digite sua nota em Geografia:'))
+n5= float(input('Digite sua nota em Física:'))
+
+soma= (n1+n2+n3+n4+n5)/2
+(print(f'{soma:.1f}, essa foi a sua média neste bimestre, {nome}'))
+if soma >= 35.0:
+    print('Por Einsten, você é um gênio!')
+if soma <= 10.0:
+    print('Meu deus, o que você esteve fazendo durante as aulas? Sua burrice me impressiona')
+if soma >= 18.7:
+    print('Você foi aprovado!')
+else:
+    print(f'Infelizmente você não alcançou a pontuação necessária, estude mais um pouco, {nome}')

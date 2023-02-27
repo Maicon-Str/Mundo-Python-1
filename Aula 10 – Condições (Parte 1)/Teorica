@@ -1,0 +1,22 @@
+"""Condições If or Else
+
+Metodos usados para decidir entre duas opções ou mais. 
+
+if carro.esquerda    else carro.direita
+
+
+Se o carro virar a esqueda, Se não, ele vira para direita."""
+
+
+tempo= int(input('Quantos anos tem seu carro?'))
+
+if tempo <=5:
+    print('Seu carro ainda é novo!')
+else:
+    print('Seu carro é velho, amigo, provavelmente todo fodido')
+print('---FIM---')
+
+"""Forma mais simplificada"""
+
+km= float(input('Quantos quilometros seu carro já rodou?'))
+print('Então ta jóia'if km <=65.000 else'Ih, infelizmente não tem jeito, rapaz')
